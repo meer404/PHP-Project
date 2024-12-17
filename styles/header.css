@@ -1,0 +1,81 @@
+
+.header h1{
+
+    color: #f1f1f1;
+    text-align: center;
+    padding-bottom: 10px;
+    }
+    
+    
+    .links{
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    .links a{
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    .user-login {
+    display: flex;
+    align-items: center;
+    background: #34495e;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    z-index: 5;
+    }
+    .user-login img {
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+    margin-left: 50px;
+    }
+    
+    .user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    .user-details p {
+    margin: 0;
+    color: #ecf0f1;
+    font-size: 24px;
+    font-weight: bold;
+    }
+    .logout-link {
+        display: inline;
+        align-items: right;
+        text-decoration: none; /* Optional: Remove underline from the link */
+        color: #333; /* Adjust text color as needed */
+        font-size: 20px; /* Adjust font size */
+    }
+    
+    .logout-link img {
+        width: 20px; /* Adjust icon size */
+        height: 20px; /* Adjust icon size */
+        margin-right: 8px; /* Space between the icon and text */
+        vertical-align: middle; /* Align icon with text */
+        display: inline;
+        color: #ddd;
+    }
+    
+    
